@@ -22,7 +22,9 @@
 #include "itoa.h" // GetDigitsLut()
 #include "diyfp.h"
 #include "ieee754.h"
-
+/*
+*  double 转化为字符串
+*/
 RAPIDJSON_NAMESPACE_BEGIN
 namespace internal {
 

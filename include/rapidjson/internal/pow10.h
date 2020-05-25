@@ -24,6 +24,7 @@ namespace internal {
 /*! This function uses lookup table for fast and accurate results.
     \param n non-negative exponent. Must <= 308.
     \return 10.0^n
+    10.0^n    ---> n >= 0 && n <= 308 
 */
 inline double Pow10(int n) {
     static const double e[] = { // 1e-0...1e308: 309 * 8 bytes = 2472 bytes

@@ -16,7 +16,9 @@
 #define RAPIDJSON_ITOA_
 
 #include "../rapidjson.h"
-
+/*
+*  整型转化为字符串
+*/
 RAPIDJSON_NAMESPACE_BEGIN
 namespace internal {
 
